@@ -1,18 +1,15 @@
-let str = '     Gabriel Otávio de Barros     ';
+let n = 10.735456374856;
 
-str = str.trim()
+// Transformar número em String 
+console.log(n.toString());
 
-console.log(str);
-console.log(str.slice(-6));
-console.log(str.slice(6));
-console.log(str.slice(3, 4));
-console.log(str.substr(3, 3))
-console.log(str.substring(3, 5))
-console.log(str.replace('de Barros', 'Schuhmacher'))
-console.log(str.toUpperCase());
-console.log(str.toLocaleLowerCase())
-console.log(str.concat(' Schuhmacher'))
-console.log(str + ' Schuhmacher')
-console.log(str.charAt(3))
-console.log(str[3])
-console.log(str.split(' '))
+// Arredondar casas decimais
+console.log(n.toFixed(2))
+
+n = '25.52';
+
+// Transformar String em Inteiro 
+console.log(parseInt(n) + 5)
+
+// Transformar String em Float
+console.log(parseFloat(n) + 5)
